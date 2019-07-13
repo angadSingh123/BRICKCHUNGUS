@@ -1,3 +1,5 @@
+#define WIN32_LEAN_AND_MEAN
+
 #include <stdio.h>
 #include <Windows.h>
 #include <stdbool.h>
@@ -26,7 +28,7 @@ typedef struct {
 	bool visible;
 }Box;
 
-#define WIN32_LEAN_AND_MEAN
+
 
 #define BLOCKS_ON_TOP 7
 #define offset 1
